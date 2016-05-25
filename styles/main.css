@@ -1038,8 +1038,8 @@
     z-index: 35;
     position: relative;
     left: 2%;
-    top: 250%;
-    transform: translateY(-250%); }
+    top: 20%;
+    transform: translateY(-20%); }
 
   .fa-chevron-right {
     opacity: .7;
@@ -1049,8 +1049,8 @@
     z-index: 35;
     position: relative;
     left: 74%;
-    top: 250%;
-    transform: translateY(-250%); }
+    top: 20%;
+    transform: translateY(-20%); }
 
   #page-contact {
     margin-top: -130px;
