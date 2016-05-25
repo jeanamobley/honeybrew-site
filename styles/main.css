@@ -828,7 +828,7 @@
   h1.about-header {
     position: relative;
     margin: -320px 0px 80px 190px;
-    z-index: 10; }
+    z-index: 2; }
 
   .about-paragraphs {
     position: relative;
