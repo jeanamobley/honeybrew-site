@@ -1038,7 +1038,7 @@
     z-index: 35;
     position: relative;
     left: 2%;
-    padding-bottom: 20px; }
+    margin-bottom: 50px; }
 
   .fa-chevron-right {
     opacity: .7;
@@ -1048,7 +1048,7 @@
     z-index: 35;
     position: relative;
     left: 74%;
-    padding-bottom: 20px; }
+    margin-bottom: 50px; }
 
   #page-contact {
     margin-top: -130px;
