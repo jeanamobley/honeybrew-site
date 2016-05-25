@@ -194,8 +194,11 @@
     width: 100%; }
 
   .hero-image {
+    background-image: url("../images/honeybrew_sign.jpg");
+    background-repeat: no-repeat;
     width: 100%;
-    margin-bottom: 100px; }
+    background-size: contain;
+    padding-bottom: 100%; }
 
   .brandbox {
     position: relative;
@@ -257,7 +260,7 @@
 
   .circle-arrow {
     z-index: 35;
-    margin-top: -7%;
+    margin-top: -40%;
     margin-bottom: 90px;
     position: relative;
     width: 50px;
@@ -631,7 +634,7 @@
   .header {
     width: 100%;
     background-color: #ffffff;
-    height: 90px;
+    height: 80px;
     position: relative;
     z-index: 5;
     margin-top: -15px;
@@ -641,7 +644,7 @@
 
   #nav-button {
     float: right;
-    margin: -50px 15px 0px 15px;
+    margin: -50px 15px 0px 25px;
     display: inline-block;
     position: relative; }
 
@@ -650,7 +653,8 @@
     width: 100%;
     background-color: #ffffff;
     z-index: 15;
-    position: absolute; }
+    position: absolute;
+    margin-top: -7px; }
 
   nav ul {
     width: 20%;
@@ -690,8 +694,9 @@
     overflow: hidden; }
 
   .logo img {
-    max-width: 90%;
-    margin-top: 10px; }
+    max-width: 55%;
+    margin-top: 10px;
+    margin-left: 20px; }
 
   p {
     font-family: 'Raleway';
@@ -807,7 +812,7 @@
 
   .about-img-left {
     width: 70%;
-    margin-top: 50px;
+    margin-top: 90px;
     margin-left: 25px;
     position: relative;
     z-index: 1; }
@@ -822,7 +827,7 @@
 
   h1.about-header {
     position: relative;
-    margin: -310px 0px 80px 200px;
+    margin: -320px 0px 80px 190px;
     z-index: 10; }
 
   .about-paragraphs {
@@ -843,189 +848,175 @@
     -moz-box-shadow: 0px 0px 24px -1px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 24px -1px rgba(0, 0, 0, 0.1); }
 
-  .js-tea1,
-  .js-tea2,
-  .js-tea3,
-  .js-tea4,
-  .js-tea5,
-  .js-tea6 {
-    transition: all .5s; }
-    .js-tea1 .js-tea-text1,
-    .js-tea1 .js-tea-text2,
-    .js-tea1 .js-tea-text3,
-    .js-tea1 .js-tea-text4,
-    .js-tea1 .js-tea-text5,
-    .js-tea1 .js-tea-text6,
-    .js-tea2 .js-tea-text1,
-    .js-tea2 .js-tea-text2,
-    .js-tea2 .js-tea-text3,
-    .js-tea2 .js-tea-text4,
-    .js-tea2 .js-tea-text5,
-    .js-tea2 .js-tea-text6,
-    .js-tea3 .js-tea-text1,
-    .js-tea3 .js-tea-text2,
-    .js-tea3 .js-tea-text3,
-    .js-tea3 .js-tea-text4,
-    .js-tea3 .js-tea-text5,
-    .js-tea3 .js-tea-text6,
-    .js-tea4 .js-tea-text1,
-    .js-tea4 .js-tea-text2,
-    .js-tea4 .js-tea-text3,
-    .js-tea4 .js-tea-text4,
-    .js-tea4 .js-tea-text5,
-    .js-tea4 .js-tea-text6,
-    .js-tea5 .js-tea-text1,
-    .js-tea5 .js-tea-text2,
-    .js-tea5 .js-tea-text3,
-    .js-tea5 .js-tea-text4,
-    .js-tea5 .js-tea-text5,
-    .js-tea5 .js-tea-text6,
-    .js-tea6 .js-tea-text1,
-    .js-tea6 .js-tea-text2,
-    .js-tea6 .js-tea-text3,
-    .js-tea6 .js-tea-text4,
-    .js-tea6 .js-tea-text5,
-    .js-tea6 .js-tea-text6 {
-      width: 55%;
-      position: absolute;
-      overflow: hidden;
-      z-index: 10;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      -webkit-transform: translate(-50%, -50%);
-      -moz-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      opacity: 0; }
-    .js-tea1:hover .js-tea-text1,
-    .js-tea1:hover .js-tea-text2,
-    .js-tea1:hover .js-tea-text3,
-    .js-tea1:hover .js-tea-text4,
-    .js-tea1:hover .js-tea-text5,
-    .js-tea1:hover .js-tea-text6,
-    .js-tea2:hover .js-tea-text1,
-    .js-tea2:hover .js-tea-text2,
-    .js-tea2:hover .js-tea-text3,
-    .js-tea2:hover .js-tea-text4,
-    .js-tea2:hover .js-tea-text5,
-    .js-tea2:hover .js-tea-text6,
-    .js-tea3:hover .js-tea-text1,
-    .js-tea3:hover .js-tea-text2,
-    .js-tea3:hover .js-tea-text3,
-    .js-tea3:hover .js-tea-text4,
-    .js-tea3:hover .js-tea-text5,
-    .js-tea3:hover .js-tea-text6,
-    .js-tea4:hover .js-tea-text1,
-    .js-tea4:hover .js-tea-text2,
-    .js-tea4:hover .js-tea-text3,
-    .js-tea4:hover .js-tea-text4,
-    .js-tea4:hover .js-tea-text5,
-    .js-tea4:hover .js-tea-text6,
-    .js-tea5:hover .js-tea-text1,
-    .js-tea5:hover .js-tea-text2,
-    .js-tea5:hover .js-tea-text3,
-    .js-tea5:hover .js-tea-text4,
-    .js-tea5:hover .js-tea-text5,
-    .js-tea5:hover .js-tea-text6,
-    .js-tea6:hover .js-tea-text1,
-    .js-tea6:hover .js-tea-text2,
-    .js-tea6:hover .js-tea-text3,
-    .js-tea6:hover .js-tea-text4,
-    .js-tea6:hover .js-tea-text5,
-    .js-tea6:hover .js-tea-text6 {
-      opacity: 1; }
+  .js-tea1 .js-tea1 img,
+  .js-tea1 .js-tea2 img,
+  .js-tea1 .js-tea3 img,
+  .js-tea1 .js-tea4 img,
+  .js-tea1 .js-tea5 img,
+  .js-tea1 .js-tea6 img,
+  .js-tea2 .js-tea1 img,
+  .js-tea2 .js-tea2 img,
+  .js-tea2 .js-tea3 img,
+  .js-tea2 .js-tea4 img,
+  .js-tea2 .js-tea5 img,
+  .js-tea2 .js-tea6 img,
+  .js-tea3 .js-tea1 img,
+  .js-tea3 .js-tea2 img,
+  .js-tea3 .js-tea3 img,
+  .js-tea3 .js-tea4 img,
+  .js-tea3 .js-tea5 img,
+  .js-tea3 .js-tea6 img,
+  .js-tea4 .js-tea1 img,
+  .js-tea4 .js-tea2 img,
+  .js-tea4 .js-tea3 img,
+  .js-tea4 .js-tea4 img,
+  .js-tea4 .js-tea5 img,
+  .js-tea4 .js-tea6 img,
+  .js-tea5 .js-tea1 img,
+  .js-tea5 .js-tea2 img,
+  .js-tea5 .js-tea3 img,
+  .js-tea5 .js-tea4 img,
+  .js-tea5 .js-tea5 img,
+  .js-tea5 .js-tea6 img,
+  .js-tea6 .js-tea1 img,
+  .js-tea6 .js-tea2 img,
+  .js-tea6 .js-tea3 img,
+  .js-tea6 .js-tea4 img,
+  .js-tea6 .js-tea5 img,
+  .js-tea6 .js-tea6 img {
+    opacity: .3; }
+  .js-tea1 .js-tea-text1,
+  .js-tea1 .js-tea-text2,
+  .js-tea1 .js-tea-text3,
+  .js-tea1 .js-tea-text4,
+  .js-tea1 .js-tea-text5,
+  .js-tea1 .js-tea-text6,
+  .js-tea2 .js-tea-text1,
+  .js-tea2 .js-tea-text2,
+  .js-tea2 .js-tea-text3,
+  .js-tea2 .js-tea-text4,
+  .js-tea2 .js-tea-text5,
+  .js-tea2 .js-tea-text6,
+  .js-tea3 .js-tea-text1,
+  .js-tea3 .js-tea-text2,
+  .js-tea3 .js-tea-text3,
+  .js-tea3 .js-tea-text4,
+  .js-tea3 .js-tea-text5,
+  .js-tea3 .js-tea-text6,
+  .js-tea4 .js-tea-text1,
+  .js-tea4 .js-tea-text2,
+  .js-tea4 .js-tea-text3,
+  .js-tea4 .js-tea-text4,
+  .js-tea4 .js-tea-text5,
+  .js-tea4 .js-tea-text6,
+  .js-tea5 .js-tea-text1,
+  .js-tea5 .js-tea-text2,
+  .js-tea5 .js-tea-text3,
+  .js-tea5 .js-tea-text4,
+  .js-tea5 .js-tea-text5,
+  .js-tea5 .js-tea-text6,
+  .js-tea6 .js-tea-text1,
+  .js-tea6 .js-tea-text2,
+  .js-tea6 .js-tea-text3,
+  .js-tea6 .js-tea-text4,
+  .js-tea6 .js-tea-text5,
+  .js-tea6 .js-tea-text6 {
+    width: 55%;
+    position: absolute;
+    overflow: hidden;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    opacity: 1; }
 
-  .honey1,
-  .honey2,
-  .honey3,
-  .honey4,
-  .honey5,
-  .honey6 {
-    transition: all .5s; }
-    .honey1 .js-honey-text1,
-    .honey1 .js-honey-text2,
-    .honey1 .js-honey-text3,
-    .honey1 .js-honey-text4,
-    .honey1 .js-honey-text5,
-    .honey1 .js-honey-text6,
-    .honey2 .js-honey-text1,
-    .honey2 .js-honey-text2,
-    .honey2 .js-honey-text3,
-    .honey2 .js-honey-text4,
-    .honey2 .js-honey-text5,
-    .honey2 .js-honey-text6,
-    .honey3 .js-honey-text1,
-    .honey3 .js-honey-text2,
-    .honey3 .js-honey-text3,
-    .honey3 .js-honey-text4,
-    .honey3 .js-honey-text5,
-    .honey3 .js-honey-text6,
-    .honey4 .js-honey-text1,
-    .honey4 .js-honey-text2,
-    .honey4 .js-honey-text3,
-    .honey4 .js-honey-text4,
-    .honey4 .js-honey-text5,
-    .honey4 .js-honey-text6,
-    .honey5 .js-honey-text1,
-    .honey5 .js-honey-text2,
-    .honey5 .js-honey-text3,
-    .honey5 .js-honey-text4,
-    .honey5 .js-honey-text5,
-    .honey5 .js-honey-text6,
-    .honey6 .js-honey-text1,
-    .honey6 .js-honey-text2,
-    .honey6 .js-honey-text3,
-    .honey6 .js-honey-text4,
-    .honey6 .js-honey-text5,
-    .honey6 .js-honey-text6 {
-      width: 55%;
-      position: absolute;
-      overflow: hidden;
-      z-index: 10;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      -webkit-transform: translate(-50%, -50%);
-      -moz-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      opacity: 0; }
-    .honey1:hover .js-honey-text1,
-    .honey1:hover .js-honey-text2,
-    .honey1:hover .js-honey-text3,
-    .honey1:hover .js-honey-text4,
-    .honey1:hover .js-honey-text5,
-    .honey1:hover .js-honey-text6,
-    .honey2:hover .js-honey-text1,
-    .honey2:hover .js-honey-text2,
-    .honey2:hover .js-honey-text3,
-    .honey2:hover .js-honey-text4,
-    .honey2:hover .js-honey-text5,
-    .honey2:hover .js-honey-text6,
-    .honey3:hover .js-honey-text1,
-    .honey3:hover .js-honey-text2,
-    .honey3:hover .js-honey-text3,
-    .honey3:hover .js-honey-text4,
-    .honey3:hover .js-honey-text5,
-    .honey3:hover .js-honey-text6,
-    .honey4:hover .js-honey-text1,
-    .honey4:hover .js-honey-text2,
-    .honey4:hover .js-honey-text3,
-    .honey4:hover .js-honey-text4,
-    .honey4:hover .js-honey-text5,
-    .honey4:hover .js-honey-text6,
-    .honey5:hover .js-honey-text1,
-    .honey5:hover .js-honey-text2,
-    .honey5:hover .js-honey-text3,
-    .honey5:hover .js-honey-text4,
-    .honey5:hover .js-honey-text5,
-    .honey5:hover .js-honey-text6,
-    .honey6:hover .js-honey-text1,
-    .honey6:hover .js-honey-text2,
-    .honey6:hover .js-honey-text3,
-    .honey6:hover .js-honey-text4,
-    .honey6:hover .js-honey-text5,
-    .honey6:hover .js-honey-text6 {
-      opacity: 1; }
+  .honey1 .honey1 img,
+  .honey1 .honey2 img,
+  .honey1 .honey3 img,
+  .honey1 .honey4 img,
+  .honey1 .honey5 img,
+  .honey1 .honey6 img,
+  .honey2 .honey1 img,
+  .honey2 .honey2 img,
+  .honey2 .honey3 img,
+  .honey2 .honey4 img,
+  .honey2 .honey5 img,
+  .honey2 .honey6 img,
+  .honey3 .honey1 img,
+  .honey3 .honey2 img,
+  .honey3 .honey3 img,
+  .honey3 .honey4 img,
+  .honey3 .honey5 img,
+  .honey3 .honey6 img,
+  .honey4 .honey1 img,
+  .honey4 .honey2 img,
+  .honey4 .honey3 img,
+  .honey4 .honey4 img,
+  .honey4 .honey5 img,
+  .honey4 .honey6 img,
+  .honey5 .honey1 img,
+  .honey5 .honey2 img,
+  .honey5 .honey3 img,
+  .honey5 .honey4 img,
+  .honey5 .honey5 img,
+  .honey5 .honey6 img,
+  .honey6 .honey1 img,
+  .honey6 .honey2 img,
+  .honey6 .honey3 img,
+  .honey6 .honey4 img,
+  .honey6 .honey5 img,
+  .honey6 .honey6 img {
+    opacity: .3; }
+  .honey1 .js-honey-text1,
+  .honey1 .js-honey-text2,
+  .honey1 .js-honey-text3,
+  .honey1 .js-honey-text4,
+  .honey1 .js-honey-text5,
+  .honey1 .js-honey-text6,
+  .honey2 .js-honey-text1,
+  .honey2 .js-honey-text2,
+  .honey2 .js-honey-text3,
+  .honey2 .js-honey-text4,
+  .honey2 .js-honey-text5,
+  .honey2 .js-honey-text6,
+  .honey3 .js-honey-text1,
+  .honey3 .js-honey-text2,
+  .honey3 .js-honey-text3,
+  .honey3 .js-honey-text4,
+  .honey3 .js-honey-text5,
+  .honey3 .js-honey-text6,
+  .honey4 .js-honey-text1,
+  .honey4 .js-honey-text2,
+  .honey4 .js-honey-text3,
+  .honey4 .js-honey-text4,
+  .honey4 .js-honey-text5,
+  .honey4 .js-honey-text6,
+  .honey5 .js-honey-text1,
+  .honey5 .js-honey-text2,
+  .honey5 .js-honey-text3,
+  .honey5 .js-honey-text4,
+  .honey5 .js-honey-text5,
+  .honey5 .js-honey-text6,
+  .honey6 .js-honey-text1,
+  .honey6 .js-honey-text2,
+  .honey6 .js-honey-text3,
+  .honey6 .js-honey-text4,
+  .honey6 .js-honey-text5,
+  .honey6 .js-honey-text6 {
+    width: 55%;
+    position: absolute;
+    overflow: hidden;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    opacity: 1; }
 
   .slideshow {
     width: 100%;
@@ -1047,8 +1038,8 @@
     z-index: 35;
     position: relative;
     left: 2%;
-    top: 220%;
-    transform: translateY(-220%); }
+    top: 180%;
+    transform: translateY(-180%); }
 
   .fa-chevron-right {
     opacity: .7;
@@ -1057,9 +1048,9 @@
     color: black;
     z-index: 35;
     position: relative;
-    left: 77%;
-    top: 220%;
-    transform: translateY(-220%); }
+    left: 74%;
+    top: 180%;
+    transform: translateY(-180%); }
 
   #page-contact {
     margin-top: -130px;
@@ -1079,14 +1070,14 @@
     border: 5px solid #ceebe9; }
 
   .footer {
-    height: 250px;
+    height: 220px;
     background-color: #414042;
     margin-top: 0px; }
 
   .honey-icon img {
     width: 300%;
     margin-left: -50px;
-    margin-top: 10px; }
+    margin-top: 0px; }
 
   .contact-footer {
     clear: left;
