@@ -467,7 +467,7 @@
 	.js-tea4,
 	.js-tea5,
 	.js-tea6 {
-		transition: all .5s;
+		transition: all 2s;
 
 		.js-tea-text1,
 		.js-tea-text2,
@@ -497,6 +497,7 @@
 			.js-tea-text5,
 			.js-tea-text6{
 				opacity: 1;
+				transition: .4s ease-in;
 				//border: 5px solid #ceebe9;
 				//padding: 20px;
 
@@ -512,7 +513,7 @@
 	.honey4,
 	.honey5,
 	.honey6 {
-		transition: all .5s;
+		transition: all 2s;
 
 		.js-honey-text1,
 		.js-honey-text2,
@@ -542,6 +543,7 @@
 			.js-honey-text5,
 			.js-honey-text6{
 				opacity: 1;
+				transition: .4s ease-in;
 			}
 		}	
 
