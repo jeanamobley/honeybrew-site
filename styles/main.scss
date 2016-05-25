@@ -246,8 +246,13 @@
 
 
 	.hero-image {
+		background-image: url("../images/honeybrew_sign.jpg");
+		background-repeat: no-repeat;
 		width: 100%;
-		margin-bottom: 100px;
+		//height: 100%;
+		background-size: contain;
+		//margin-bottom: 100px;
+		padding-bottom: 100%;
 	}
 
 	.brandbox {
@@ -320,10 +325,9 @@
 	}
 
 
-
 	.circle-arrow {
 		z-index: 35;
-		margin-top: -7%;
+		margin-top: -40%;
 		margin-bottom: 90px;
 		position: relative;
 		width: 50px;
@@ -682,7 +686,7 @@
 
     #nav-button {
     	float: right;
-        margin: -50px 15px 0px 15px;
+        margin: -50px 15px 0px 25px;
         display: inline-block;
         position: relative;
     }
@@ -746,7 +750,7 @@
 	.logo img{
 		max-width: 55%;
 		margin-top: 10px;
-		margin-left: 10px;
+		margin-left: 20px;
 	}
 
 
@@ -888,7 +892,7 @@
 
 	.about-img-left {
 		width: 70%;
-		margin-top: 50px;
+		margin-top: 90px;
 		margin-left: 25px;
 		position: relative;
 		z-index: 1;
@@ -906,7 +910,7 @@
 
 	h1.about-header {
 		position: relative;
-		margin: -310px 0px 80px 200px;
+		margin: -320px 0px 80px 190px;
 		z-index: 10;
 	}
 
@@ -937,7 +941,15 @@
 	.js-tea4,
 	.js-tea5,
 	.js-tea6 {
-		transition: all .5s;
+
+		.js-tea1 img,
+		.js-tea2 img,
+		.js-tea3 img,
+		.js-tea4 img,
+		.js-tea5 img,
+		.js-tea6 img {
+			opacity: .3;
+		}
 
 		.js-tea-text1,
 		.js-tea-text2,
@@ -955,24 +967,8 @@
 			-webkit-transform: translate(-50%, -50%);
 			-moz-transform: translate(-50%, -50%);
 			-ms-transform: translate(-50%, -50%);
-			opacity: 0;
+			opacity: 1;
 		}
-
-		&:hover {
-
-			.js-tea-text1,
-			.js-tea-text2,
-			.js-tea-text3,
-			.js-tea-text4,
-			.js-tea-text5,
-			.js-tea-text6{
-				opacity: 1;
-				//border: 5px solid #ceebe9;
-				//padding: 20px;
-
-			}
-		}	
-
 	}
 
 
@@ -982,7 +978,15 @@
 	.honey4,
 	.honey5,
 	.honey6 {
-		transition: all .5s;
+
+		.honey1 img,
+		.honey2 img,
+		.honey3 img,
+		.honey4 img,
+		.honey5 img,
+		.honey6 img {
+			opacity: .3;
+		}
 
 		.js-honey-text1,
 		.js-honey-text2,
@@ -1000,19 +1004,7 @@
 			-webkit-transform: translate(-50%, -50%);
 			-moz-transform: translate(-50%, -50%);
 			-ms-transform: translate(-50%, -50%);
-			opacity: 0;
-		}
-
-		&:hover {
-
-			.js-honey-text1,
-			.js-honey-text2,
-			.js-honey-text3,
-			.js-honey-text4,
-			.js-honey-text5,
-			.js-honey-text6{
-				opacity: 1;
-			}
+			opacity: 1;
 		}	
 
 	}
@@ -1043,8 +1035,8 @@
 		z-index: 35;
 		position: relative;
 		left: 2%;
-		top: 220%;
-		transform: translateY(-220%);
+		top: 180%;
+		transform: translateY(-180%);
 	}
 
 	.fa-chevron-right {
@@ -1055,9 +1047,9 @@
 		//border: 5px solid #ceebe9;
 		z-index: 35;
 		position: relative;
-		left: 77%;
-		top: 220%;
-		transform: translateY(-220%);
+		left: 74%;
+		top: 180%;
+		transform: translateY(-180%);
 	}
 
 	#page-contact {
