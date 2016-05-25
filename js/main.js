@@ -107,92 +107,109 @@ $(document).on('ready', function(){
 
 	//TEA
 
-	$('.js-tea1').hover(function () {
-        $('.js-tea1 img').css('opacity', '0.3');
-    }, function() {
-        $('.js-tea1 img').css('opacity', '1');
-    });
+    $(window).resize(function(){
+            var w = $(window).width();
+            if(w > 480) {
+
+            	$('.js-tea1').hover(function () {
+                    $('.js-tea1 img').css('opacity', '0.3');
+                }, function() {
+                    $('.js-tea1 img').css('opacity', '1');
+                });
 
 
-    $('.js-tea2').hover(function () {
-        $('.js-tea2 img').css('opacity', '0.3');
-    }, function() {
-        $('.js-tea2 img').css('opacity', '1');
-    });
+                $('.js-tea2').hover(function () {
+                    $('.js-tea2 img').css('opacity', '0.3');
+                }, function() {
+                    $('.js-tea2 img').css('opacity', '1');
+                });
 
 
-    $('.js-tea3').hover(function () {
-        $('.js-tea3 img').css('opacity', '0.3');
-    }, function() {
-        $('.js-tea3 img').css('opacity', '1');
-    });
+                $('.js-tea3').hover(function () {
+                    $('.js-tea3 img').css('opacity', '0.3');
+                }, function() {
+                    $('.js-tea3 img').css('opacity', '1');
+                });
 
 
-    $('.js-tea4').hover(function () {
-        $('.js-tea4 img').css('opacity', '0.3');
-    }, function() {
-        $('.js-tea4 img').css('opacity', '1');
-    });
+                $('.js-tea4').hover(function () {
+                    $('.js-tea4 img').css('opacity', '0.3');
+                }, function() {
+                    $('.js-tea4 img').css('opacity', '1');
+                });
 
 
-    $('.js-tea5').hover(function () {
-        $('.js-tea5 img').css('opacity', '0.3');
-    }, function() {
-        $('.js-tea5 img').css('opacity', '1');
-    });
+                $('.js-tea5').hover(function () {
+                    $('.js-tea5 img').css('opacity', '0.3');
+                }, function() {
+                    $('.js-tea5 img').css('opacity', '1');
+                });
 
 
-    $('.js-tea6').hover(function () {
-        $('.js-tea6 img').css('opacity', '0.3');
-    }, function() {
-        $('.js-tea6 img').css('opacity', '1');
-    });
+                $('.js-tea6').hover(function () {
+                    $('.js-tea6 img').css('opacity', '0.3');
+                }, function() {
+                    $('.js-tea6 img').css('opacity', '1');
+                });
 
 
 
 
-	//HONEY
+            	//HONEY
 
-	$('.honey1').hover(function () {
-        $('.honey1 img').css('opacity', '0.3');
-    }, function() {
-        $('.honey1 img').css('opacity', '1');
-    });
-
-
-    $('.honey2').hover(function () {
-        $('.honey2 img').css('opacity', '0.3');
-    }, function() {
-        $('.honey2 img').css('opacity', '1');
-    });
+            	$('.honey1').hover(function () {
+                    $('.honey1 img').css('opacity', '0.3');
+                }, function() {
+                    $('.honey1 img').css('opacity', '1');
+                });
 
 
-    $('.honey3').hover(function () {
-        $('.honey3 img').css('opacity', '0.3');
-    }, function() {
-        $('.honey3 img').css('opacity', '1');
-    });
+                $('.honey2').hover(function () {
+                    $('.honey2 img').css('opacity', '0.3');
+                }, function() {
+                    $('.honey2 img').css('opacity', '1');
+                });
 
 
-    $('.honey4').hover(function () {
-        $('.honey4 img').css('opacity', '0.3');
-    }, function() {
-        $('.honey4 img').css('opacity', '1');
-    });
+                $('.honey3').hover(function () {
+                    $('.honey3 img').css('opacity', '0.3');
+                }, function() {
+                    $('.honey3 img').css('opacity', '1');
+                });
 
 
-    $('.honey5').hover(function () {
-        $('.honey5 img').css('opacity', '0.3');
-    }, function() {
-        $('.honey5 img').css('opacity', '1');
-    });
+                $('.honey4').hover(function () {
+                    $('.honey4 img').css('opacity', '0.3');
+                }, function() {
+                    $('.honey4 img').css('opacity', '1');
+                });
 
 
-    $('.honey6').hover(function () {
-        $('.honey6 img').css('opacity', '0.3');
-    }, function() {
-        $('.honey6 img').css('opacity', '1');
-    });
+                $('.honey5').hover(function () {
+                    $('.honey5 img').css('opacity', '0.3');
+                }, function() {
+                    $('.honey5 img').css('opacity', '1');
+                });
+
+
+                $('.honey6').hover(function () {
+                    $('.honey6 img').css('opacity', '0.3');
+                }, function() {
+                    $('.honey6 img').css('opacity', '1');
+                });
+
+            }
+        });
+
+
+        $(window).resize(function(){
+            var w = $(window).width();
+            if(w <= 480) {
+                $('.tea-images img').css('opacity', '0.3');
+                $('.honey-images img').css('opacity', '0.3');
+            }
+        });
+            
 
 
     //HAMBURGER
@@ -211,6 +228,7 @@ $(document).on('ready', function(){
                 menu.removeAttr('style');
             }
         }); 
+
 
 
 
