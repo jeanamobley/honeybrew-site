@@ -670,7 +670,7 @@
 	.header {
 		width: 100%;
 		background-color: #ffffff;
-		height: 90px;
+		height: 80px;
 		position: relative;
 		z-index: 5;
 		margin-top: -15px;
@@ -693,7 +693,7 @@
         background-color: #ffffff;
         z-index: 15;
         position: absolute;
-        //margin-top: -2px;
+        margin-top: -7px;
     }
 
 
@@ -744,9 +744,9 @@
 
 
 	.logo img{
-		max-width: 90%;
+		max-width: 55%;
 		margin-top: 10px;
-		//margin-left: -50px;
+		margin-left: 10px;
 	}
 
 
@@ -1084,7 +1084,7 @@
 	}
 
 	.footer {
-		height: 250px;
+		height: 220px;
 		background-color: #414042;
 		margin-top: 0px;
 	}
@@ -1097,7 +1097,7 @@
 	.honey-icon img{
 		width: 300%;
 		margin-left: -50px;
-		margin-top: 10px;
+		margin-top: 0px;
 	}
 
 	.contact-footer {
