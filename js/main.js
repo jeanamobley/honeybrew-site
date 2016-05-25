@@ -107,7 +107,7 @@ $(document).on('ready', function(){
 
 	//TEA
 
-    $(window).resize(function(){
+    $(window).load(function(){
             var w = $(window).width();
             if(w > 480) {
 
@@ -202,7 +202,7 @@ $(document).on('ready', function(){
         });
 
 
-        $(window).resize(function(){
+        $(window).load(function(){
             var w = $(window).width();
             if(w <= 480) {
                 $('.tea-images img').css('opacity', '0.3');
