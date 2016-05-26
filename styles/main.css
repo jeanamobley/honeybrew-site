@@ -324,7 +324,6 @@
     max-width: 35%;
     margin-left: 100px;
     margin-top: 30px;
-    margin-bottom: 50px;
     border: 5px solid #ceebe9; }
 
   .contact-img-right {
@@ -596,13 +595,14 @@
     background-color: #414042; }
 
   .contact-footer {
+    position: absolute;
     clear: left;
+    margin-top: 60px;
     margin-left: 70px; }
 
   .social {
-    clear: left;
     float: right;
-    margin: -170px 75px 0px 0px; }
+    margin: 40px 75px 0px 0px; }
 
   .circle {
     background-color: #ceebe9;
@@ -625,7 +625,8 @@
     margin-left: 10px; }
 
   .honey-icon {
-    width: 4%;
+    position: absolute;
+    max-width: 60px;
     float: left;
     margin: 33px 0px 0px 70px; } }
 @media only screen and (min-width: 0) and (max-width: 480px) {
