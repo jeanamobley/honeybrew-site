@@ -391,7 +391,7 @@
 
 
 	.contact-header {
-		position: relatove;
+		position: relative;
 		padding-top: 180px;
 		margin-left: 260px;
 		margin-bottom: 40px;
@@ -405,6 +405,7 @@
 		max-width: 35%;
 		margin-left: 100px;
 		margin-top: 30px;
+		margin-bottom: 50px;
 		border: 5px solid #ceebe9;
 	}
 
@@ -646,7 +647,7 @@
 
 	.honey-icon {
 		position: absolute;
-		max-width: 60px;
+		width: 60px;
 		float: left;
 		margin: 33px 0px 0px 70px;
 	}
@@ -1140,9 +1141,9 @@
 	}
 
 	.honey-icon {
-		width: 4%;
+		width: 18px;
 		float: left;
-		margin: 33px 0px 0px 70px;
+		margin: 35px 0px 0px 70px;
 	}
 
 
