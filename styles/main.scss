@@ -58,13 +58,6 @@
 		margin-bottom: -15px;
 	}
 
-	p.footer-para2 {
-		font-family: 'Raleway';
-		font-size: 18px;
-		letter-spacing: 1px;
-		color: #fff;
-	}
-
 
 	strong {
 		font-family: 'Oswald';
@@ -314,7 +307,7 @@
 
 	h4.est {
 		float: left;
-		padding: 30px 20px;
+		padding: 30px 19.5px;
 		border: 2px solid black;
 		margin-left: -2px;
 	}
@@ -392,20 +385,20 @@
 
 	.contact-header {
 		position: relative;
-		padding-top: 180px;
+		padding-top: 150px;
 		margin-left: 260px;
 		margin-bottom: 40px;
 	}
 
 	.contact-paragraphs {
-		z-index: 10;
+		//z-index: 10;
 		position: relative;
 		float: left;
 		padding: 50px;
 		max-width: 35%;
 		margin-left: 100px;
-		margin-top: 30px;
-		margin-bottom: 50px;
+		margin-top: 10px;
+		margin-bottom: 20px;
 		border: 5px solid #ceebe9;
 	}
 
@@ -413,7 +406,7 @@
 		width: 40%;
 		margin-left: -30px;
 		z-index: -5;
-		margin-top: -180px;
+		margin-top: -150px;
 		position: relative;
 	}
 
@@ -425,9 +418,10 @@
 	}
 
 	#page-contact {
+		position: relative;
 		clear: left;
 		width: 100%;
-		margin-bottom: 100px;
+		margin-bottom: 140px;
 	}
 
 	#page-honey {
@@ -560,11 +554,12 @@
 	.slideshow {
 		//padding: 130px 0px;
 		width: 100%;
+		position: relative;
 		//background-color: #e2d5b5;
 	}
 
 	.hero-image2 {
-		margin-bottom: -70px;
+		margin-bottom: -5px;
 		width: 100%;
 		overflow: hidden;
 		position: relative;
@@ -578,10 +573,10 @@
 		color: black;
 		//border: 5px solid #ceebe9;
 		z-index: 35;
-		position: relative;
-		left: 2%;
-		top: 580%;
-		transform: translateY(-580%);
+		position: absolute;
+		left: 15%;
+		top: 45%;
+		transform: translateY(-45%);
 	}
 
 	.fa-chevron-right {
@@ -591,17 +586,18 @@
 		color: black;
 		//border: 5px solid #ceebe9;
 		z-index: 35;
-		position: relative;
-		left: 87%;
-		top: 580%;
-		transform: translateY(-580%);
+		position: absolute;
+		left: 81%;
+		top: 45%;
+		transform: translateY(-45%);
 	}
 
 
 	.footer {
+		margin-top: 50px;
 		position: relative;
-		z-index: 10;
-		height: 250px;
+		//z-index: 10;
+		height: 200px;
 		background-color: #414042;
 	}
 
@@ -1085,7 +1081,7 @@
 	}
 
 	.footer {
-		height: 220px;
+		height: 180px;
 		background-color: #414042;
 		margin-top: 0px;
 	}
@@ -1111,7 +1107,7 @@
 	.social {
 		clear: left;
 		float: right;
-		margin: -158px 25px 0px 0px;
+		margin: -125px 25px 0px 0px;
 	}
 
 	.circle{
@@ -1209,4 +1205,3 @@
 	}
 
 }
-
