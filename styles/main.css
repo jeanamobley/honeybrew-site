@@ -1436,6 +1436,7 @@
     margin-left: 14px; }
 
   .nav-text {
+    clear: both;
     margin: 20px; }
 
   .nav-header {
