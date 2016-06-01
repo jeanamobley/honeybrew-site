@@ -237,6 +237,7 @@ $(document).on('ready', function(){
                 $('nav').animate({
                     left: '100vw'
                 });
+                $('nav').css('overflow', 'hidden');
                 menu.slideToggle();
             }
         });
