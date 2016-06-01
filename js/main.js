@@ -216,11 +216,32 @@ $(document).on('ready', function(){
         var pull = $('#pull');
             menu = $('nav ul');
             menuHeight = menu.height();
+
+        var slideLeft = false;
+
+        var w = $(window).width();
      
+
         $("#nav-button").on('click', function(e) {
             e.preventDefault();
-            menu.slideToggle();
+            console.log('hello');
+            
+            if(slideLeft === false){
+                slideLeft = true;
+                $('nav').animate({
+                    left: '0vw'
+                });
+                menu.slideToggle();
+            } else {
+                slideLeft = false;
+                $('nav').animate({
+                    left: '100vw'
+                });
+                menu.slideToggle();
+            }
         });
+
+
 
         $(window).resize(function(){
             var w = $(window).width();
