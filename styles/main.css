@@ -1406,7 +1406,8 @@
     position: absolute;
     margin-top: -7px;
     height: 100vh;
-    left: 100vw; }
+    left: 100vw;
+    overflow: hidden; }
 
   nav ul {
     width: 20%;
