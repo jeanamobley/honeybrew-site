@@ -231,13 +231,13 @@ $(document).on('ready', function(){
                 $('nav').animate({
                     left: '0vw'
                 });
+                $('nav').css('overflow', 'hidden');
                 menu.slideToggle();
             } else {
                 slideLeft = false;
                 $('nav').animate({
                     left: '100vw'
                 });
-                $('nav').css('overflow', 'hidden');
                 menu.slideToggle();
             }
         });
