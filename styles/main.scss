@@ -763,6 +763,7 @@
     .nav-honey-icon {
     	max-width: 20%;
     	margin-left: 34px;
+    	margin-bottom: -20px;
     }
 
     .nav-text {
@@ -1547,8 +1548,9 @@
     }
 
     .nav-honey-icon {
-    	max-width: 15%;
-    	margin-left: 14px;
+    	display: none;
+    	//max-width: 15%;
+    	//margin-left: 14px;
     }
 
     .nav-text {

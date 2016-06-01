@@ -707,7 +707,8 @@
 
   .nav-honey-icon {
     max-width: 20%;
-    margin-left: 34px; }
+    margin-left: 34px;
+    margin-bottom: -20px; }
 
   .nav-text {
     margin: 40px; }
@@ -1433,8 +1434,7 @@
     position: relative; }
 
   .nav-honey-icon {
-    max-width: 15%;
-    margin-left: 14px; }
+    display: none; }
 
   .nav-text {
     clear: both;
