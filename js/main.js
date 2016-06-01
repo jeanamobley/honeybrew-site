@@ -229,7 +229,7 @@ $(document).on('ready', function(){
             if(slideLeft === false){
                 slideLeft = true;
                 $('nav').animate({
-                    left: '0vw'
+                    left: '-100vw'
                 });
                 $('nav').css('overflow', 'hidden');
                 menu.slideToggle();
