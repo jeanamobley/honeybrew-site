@@ -24,11 +24,68 @@ $(document).on('ready', function(){
 		//use pageToScrollTo in a .scrollTo function
 		//can add the object offset to offset the scroll with the fixed nav
 		//needs to be negative
+
 		$(window).scrollTo(pageToScrollTo, 600, {offset: -offset});
+        $('nav').hide()
+        $('nav ul').slideToggle();
+        $('#nav-icon1').toggleClass('open');
+        $('nav').css('left', '100vw');
+        $('body').css('overflow', 'auto');
+
+
+
+        var pull = $('#pull');
+            menu = $('nav ul');
+            menuHeight = menu.height();
+
+        var slideLeft = true;
+
+        var w = $(window).width();
+
+
+            if(slideLeft === false){
+                slideLeft = true;
+                $('nav').animate({
+                    left: '0vw'
+                });
+                $('body').css('overflow', 'hidden');
+                menu.slideToggle();
+            } else {
+                slideLeft = false;
+                $('nav').animate({
+                    left: '100vw'
+                });
+                menu.slideToggle();
+                $('body').css('overflow', 'auto');
+
+            }
+            
+            $(this).toggleClass('open');
+
+
 
 		//remove the class on all links
 		$('.nav-main a').removeClass('is-current');
 		$(this).addClass('is-current');
+        
+
+            $("#nav-icon1").on('click', function(e) {
+                var slideLeft = true;
+            
+                if(slideLeft === false){
+                    $('nav').animate({
+                        left: '0vw'
+                    });
+                    $('body').css('overflow', 'hidden');
+                    menu.slideToggle();
+                } else {
+                    $('nav').animate({
+                        left: '100vw'
+                    });
+                    menu.slideToggle();
+                    $('body').css('overflow', 'auto');
+                }
+        });
 	});
 
 	// END OF PAGE NAVIGATION
