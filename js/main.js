@@ -222,7 +222,7 @@ $(document).on('ready', function(){
         var w = $(window).width();
      
 
-        $("#nav-button").on('click', function(e) {
+        $("#nav-icon1").on('click', function(e) {
             e.preventDefault();
             console.log('hello');
             
@@ -231,7 +231,7 @@ $(document).on('ready', function(){
                 $('nav').animate({
                     left: '0vw'
                 });
-                $('nav').css('overflow', 'hidden');
+                $('body').css('overflow', 'hidden');
                 menu.slideToggle();
             } else {
                 slideLeft = false;
@@ -239,6 +239,8 @@ $(document).on('ready', function(){
                     left: '100vw'
                 });
                 menu.slideToggle();
+                $('body').css('overflow', 'auto');
+
             }
         });
 
@@ -251,6 +253,10 @@ $(document).on('ready', function(){
             }
         }); 
 
+
+            $('#nav-icon1').click(function(){
+                $(this).toggleClass('open');
+            });
 
 
 
