@@ -780,7 +780,7 @@
         border-bottom: 0;
         right: 100vw;
         height: 102vh;
-        width: 40%;
+        width: 42%;
         z-index: 30;
         position: absolute;
         margin-top: -90px;
@@ -789,14 +789,13 @@
 
 
     nav ul {
-    	//width: 100%;
+    	width: 50%;
 		text-decoration: none;
         display: none;
         height: auto;
         list-style: none;
         margin: 30px 0px 70px 0px;
         float: left;
-        //padding-bottom: 80px;
     }
 
     nav ul li {
@@ -805,7 +804,7 @@
 		font-size: 14px;
 		padding: 15px;
 		padding-left: 40px;
-		display: block;
+		display: inline-block;
 		margin: 0;
     }
 
@@ -813,7 +812,7 @@
 		font-family: 'Oswald';
 		font-weight: 300;
 		font-size: 18px;
-		display: block;
+		display: inline-block;
 		color: #fff;
 		text-decoration: none;
 

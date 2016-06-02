@@ -728,13 +728,14 @@
     border-bottom: 0;
     right: 100vw;
     height: 102vh;
-    width: 40%;
+    width: 42%;
     z-index: 30;
     position: absolute;
     margin-top: -90px;
     margin-left: 60vw; }
 
   nav ul {
+    width: 50%;
     text-decoration: none;
     display: none;
     height: auto;
@@ -748,14 +749,14 @@
     font-size: 14px;
     padding: 15px;
     padding-left: 40px;
-    display: block;
+    display: inline-block;
     margin: 0; }
 
   .nav-main li a {
     font-family: 'Oswald';
     font-weight: 300;
     font-size: 18px;
-    display: block;
+    display: inline-block;
     color: #fff;
     text-decoration: none; }
     .nav-main li a:hover {
