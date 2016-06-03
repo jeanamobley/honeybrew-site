@@ -1,37 +1,89 @@
 $(document).on('ready', function(){
 
-	//PAGE NAVIGATION
+    //PAGE NAVIGATION
 
-	//get outer height of .nav-wrapper and store in a variable
-	//true includes margins
-	// plus 20 adds margin of 20px
-	var offset = ($('.nav-wrapper').outerHeight(true) + 15);
-		console.log(offset);
+    //get outer height of .nav-wrapper and store in a variable
+    //true includes margins
+    // plus 20 adds margin of 20px
+    var offset = ($('.nav-wrapper').outerHeight(true) + 15);
+        console.log(offset);
 
-	//use jquery to add margin-top to body using the above height (offset)
-	$('body').css('margin-top', offset);
+    //use jquery to add margin-top to body using the above height (offset)
+    $('body').css('margin-top', offset);
 
 
-	//scroll to the page associated with the link
-	$('.nav-main a').on('click', function(event){
-		//make it stop jumping
-		event.preventDefault();
-		//console.log(this);
+    //scroll to the page associated with the link
+    $('.nav-main a').on('click', function(event){
+        //make it stop jumping
+        event.preventDefault();
+        //console.log(this);
 
-		//gets name of each ID without you having to type all of them
-		var pageToScrollTo = $(this).attr('href');
+        //gets name of each ID without you having to type all of them
+        var pageToScrollTo = $(this).attr('href');
 
-		//use pageToScrollTo in a .scrollTo function
-		//can add the object offset to offset the scroll with the fixed nav
-		//needs to be negative
-		$(window).scrollTo(pageToScrollTo, 600, {offset: -offset});
+        //use pageToScrollTo in a .scrollTo function
+        //can add the object offset to offset the scroll with the fixed nav
+        //needs to be negative
 
-		//remove the class on all links
-		$('.nav-main a').removeClass('is-current');
-		$(this).addClass('is-current');
-	});
+        $(window).scrollTo(pageToScrollTo, 600, {offset: -offset});
 
-	// END OF PAGE NAVIGATION
+
+        //remove the class on all links
+        $('.nav-main a').removeClass('is-current');
+        $(this).addClass('is-current');
+
+        //trigger click event on nav icon to open it once link has been clicked on
+        //ONLY in tablet and mobile
+        var w = $(window).width();
+            if(w < 960) {
+                $('#nav-icon1').trigger('click');
+                $('body').css('overflow', 'auto');
+        }
+
+        
+    });
+
+    // END OF PAGE NAVIGATION
+
+
+
+    //CLICK EVENT TO OPEN HAMBURGER NAV
+        var pull = $('#pull');
+        var menu = $('nav ul');
+        var menuHeight = menu.height();
+
+        var slideLeft = false;
+
+        var w = $(window).width();
+     
+
+        $("#nav-icon1").on('click', function(e) {
+            e.preventDefault();
+            console.log('hello');
+            
+            if(slideLeft === false){
+                slideLeft = true;
+                $('nav').animate({
+                    left: '0vw'
+                });
+                $('body').css('overflow', 'hidden');
+                menu.slideToggle();
+            } else {
+                slideLeft = false;
+                $('nav').animate({
+                    left: '100vw'
+                });
+                menu.slideToggle();
+                $('body').css('overflow', 'auto');
+
+            }
+        });
+
+
+        $('#nav-icon1').click(function(){
+            $(this).toggleClass('open');
+        });
+
 
 
 
@@ -100,18 +152,13 @@ $(document).on('ready', function(){
 
 
 
-
-
-
-
-
-	//TEA
+    //TEA
 
     $(window).load(function(){
-            var w = $(window).width();
+        var w = $(window).width();
             if(w > 480) {
 
-            	$('.js-tea1').hover(function () {
+                $('.js-tea1').hover(function () {
                     $('.js-tea1 img').css('opacity', '0.3');
                 }, function() {
                     $('.js-tea1 img').css('opacity', '1');
@@ -155,9 +202,9 @@ $(document).on('ready', function(){
 
 
 
-            	//HONEY
+                //HONEY
 
-            	$('.honey1').hover(function () {
+                $('.honey1').hover(function () {
                     $('.honey1 img').css('opacity', '0.3');
                 }, function() {
                     $('.honey1 img').css('opacity', '1');
@@ -202,6 +249,7 @@ $(document).on('ready', function(){
         });
 
 
+        //FIXES OPACITY ON MOBILE TEA AND HONEY IMAGES
         $(window).load(function(){
             var w = $(window).width();
             if(w <= 480) {
@@ -211,24 +259,12 @@ $(document).on('ready', function(){
         });
             
 
-
-    //HAMBURGER
-        var pull = $('#pull');
-            menu = $('nav ul');
-            menuHeight = menu.height();
-     
-        $("#nav-button").on('click', function(e) {
-            e.preventDefault();
-            menu.slideToggle();
-        });
-
         $(window).resize(function(){
             var w = $(window).width();
             if(w > 320 && menu.is(':hidden')) {
                 menu.removeAttr('style');
             }
         }); 
-
 
 
 
