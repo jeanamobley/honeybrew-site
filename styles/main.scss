@@ -688,6 +688,7 @@
 		width: 100%;
 		background-color: #f1f2f2;
 		margin: 0 auto;
+		margin-top: 0px !important;
 		padding: 0;
 		position: relative;
 	}
@@ -695,7 +696,7 @@
 	.header {
 		width: 100%;
 		background-color: #ffffff;
-		height: 78px;
+		height: 90px;
 		position: relative;
 		z-index: 5;
 		margin-top: -15px;
@@ -776,7 +777,6 @@
 	}
 
     nav {
-    	overflow-x: hidden;
     	background-color: #808284;
         border-bottom: 0;
         right: 100vw;
@@ -784,7 +784,7 @@
         width: 42%;
         z-index: 30;
         position: absolute;
-        margin-top: -90px;
+        margin-top: 0;
         margin-left: 60vw;
     }
 
@@ -900,7 +900,7 @@
 		position: relative;
 		z-index: 50;
 		max-width: 200px;
-		margin: 10px 0px 10px 20px;
+		margin: 20px 0px 10px 20px;
 	}
 
 
@@ -1558,6 +1558,7 @@
 		overflow-x: hidden;
 		width: 100%;
 		background-color: #f1f2f2;
+		margin-top: 0px !important;
 		margin: 0 auto;
 		padding: 0;
 		position: relative;
@@ -1566,7 +1567,7 @@
 	.header {
 		width: 100%;
 		background-color: #ffffff;
-		height: 66px;
+		height: 80px;
 		position: relative;
 		z-index: 5;
 		margin-top: -15px;
@@ -1648,7 +1649,6 @@
 
 
     nav {
-    	overflow-x: hidden;
     	color: #fff;
         border-bottom: 0;
         width: 100%;
@@ -1779,7 +1779,7 @@
 
 	.logo img{
 		max-width: 45%;
-		margin-top: 7px;
+		margin-top: 20px;
 		margin-left: 20px;
 	}
 
