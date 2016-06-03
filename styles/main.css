@@ -1086,13 +1086,13 @@
     border: 5px solid #ceebe9; }
 
   .contact-img-right {
+    overflow: auto;
     clear: left;
     float: right;
     width: 45%;
     margin-right: 40px;
     z-index: -5;
-    margin-top: -350px;
-    position: relative; }
+    margin-top: -350px; }
 
   #page-tea {
     clear: right;

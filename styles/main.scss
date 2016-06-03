@@ -1223,6 +1223,7 @@
 	}
 
 	.contact-img-right {
+		overflow: auto;
 		clear: left;
 		float: right;
 		width: 45%;
@@ -1230,7 +1231,6 @@
 		z-index: -5;
 		margin-top: -350px;
 		//margin-bottom: 200px;
-		position: relative;
 	}
 
 
