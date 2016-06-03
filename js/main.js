@@ -37,10 +37,8 @@ $(document).on('ready', function(){
         var w = $(window).width();
             if(w < 960) {
                 $('#nav-icon1').trigger('click');
-                $('body').css('overflow', 'auto');
         }
 
-        
     });
 
     // END OF PAGE NAVIGATION
@@ -74,14 +72,14 @@ $(document).on('ready', function(){
                     left: '100vw'
                 });
                 menu.slideToggle();
-                $('body').css('overflow', 'auto');
-
+                $('body').css('overflow-y', 'auto');
             }
         });
 
 
         $('#nav-icon1').click(function(){
             $(this).toggleClass('open');
+
         });
 
 
