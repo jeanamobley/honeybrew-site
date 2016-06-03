@@ -27,13 +27,19 @@ $(document).on('ready', function(){
 
         $(window).scrollTo(pageToScrollTo, 600, {offset: -offset});
 
-        $('#nav-icon1').trigger('click');
-        $('body').css('overflow', 'auto');
-
 
         //remove the class on all links
         $('.nav-main a').removeClass('is-current');
         $(this).addClass('is-current');
+
+        //trigger click event on nav icon to open it once link has been clicked on
+        //ONLY in tablet and mobile
+        var w = $(window).width();
+            if(w < 960) {
+                $('#nav-icon1').trigger('click');
+                $('body').css('overflow', 'auto');
+        }
+
         
     });
 
